@@ -21,7 +21,7 @@ int Dizzy = Integer.parseInt(Spins);
 	static void dance(int numberOfSpins) {
 		for (int i = 0; i < numberOfSpins; i++) {
 			robot.turn(360);
-			
+			robot.setSpeed(100);
 		}
 	}
 }
